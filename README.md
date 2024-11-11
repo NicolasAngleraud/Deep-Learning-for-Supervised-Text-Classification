@@ -63,7 +63,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run the ETL data pipeline (provided one have a ttl dump file):
+3. Run the ETL data pipeline:
 ```bash
 src/models/etl_pipeline.sh
 ```
