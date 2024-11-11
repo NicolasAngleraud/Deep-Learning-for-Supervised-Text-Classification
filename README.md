@@ -14,17 +14,21 @@ This repository contains the work completed during my internship focusing on Dee
 
 This project focuses on:
 
+- Classifying word senses with their definition and in context examples into supersenses
 - Implementing and comparing different deep learning architectures
 - Analyzing the impact of various text preprocessing techniques
 - Evaluating model performance across different classification scenarios
 - Exploring transfer learning approaches using pre-trained language models
-- Building a semanticaly enriched lexical resource using the best classifier trained.
+- Exploring 
+- Building a semanticaly enriched lexical resource using the best classifier trained
 
 ## Dataset
 
 The project utilizes the following dataset:
 
 **Wiktionary**:
+
+- The data collected is the word sense data from the Wiktionary. Each word sense is mainly represented by the word itself, a definition and zero to a few example sentences using the word in this sense.
 
 - The data was extracted with a Python ETL pipeline from a dump file using RDF format of the Wiktionary. New dump files with current states of the Wiktionary are created regularly. The files can be found on the DBnary website.
 
