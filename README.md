@@ -32,6 +32,8 @@ The project utilizes the following dataset:
 
 - The data was extracted with a Python ETL pipeline from a dump file using RDF format of the Wiktionary. New dump files with current states of the Wiktionary are created regularly. The files can be found on the DBnary website.
 
+- Some of the word senses extracted were manually annotated to create training, validation et evaluation datasets.
+
 - Dbnary is derived from Wiktionary and is distributed under Creative Commons Attribution-ShareAlike 3.0.
 
 - Sérasset Gilles (2014). DBnary: Wiktionary as a Lemon-Based Multilingual Lexical Resource in RDF. to appear in Semantic Web Journal (special issue on Multilingual Linked Open Data). [pdf](http://www.semantic-web-journal.net/system/files/swj648.pdf)
