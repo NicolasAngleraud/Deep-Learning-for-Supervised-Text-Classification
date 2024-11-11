@@ -19,7 +19,7 @@ This project focuses on:
 - Analyzing the impact of various text preprocessing techniques
 - Evaluating model performance across different classification scenarios
 - Exploring transfer learning approaches using pre-trained language models
-- Exploring 
+- Exploring ensemble learning with two classifiers to achieve better results
 - Building a semanticaly enriched lexical resource using the best classifier trained
 
 ## Dataset
