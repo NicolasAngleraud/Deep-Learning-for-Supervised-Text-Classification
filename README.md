@@ -47,7 +47,7 @@ The following deep learning models were implemented and evaluated:
    - MLP with one hidden layer as classifier
 
 2. **Llama3.2-Based Models**
-   - Inference by leveraging the probability distribution of next token to be generated
+   - Few-shot prompting by leveraging the probability distribution of next token to be generated for each class first subword token
    - Replacing the modeling head with a linear classifier and fine-tuning
 
 ## Getting Started
@@ -67,22 +67,22 @@ pip install -r requirements.txt
 
 3. Run the ETL data pipeline:
 ```bash
-src/models/etl_pipeline.sh
+code/etl_pipeline.sh
 ```
 
 4. Run the training pipeline:
 ```bash
-src/models/train_model.sh
+code/train_model.sh
 ```
 
 5. Run the grid search pipeline:
 ```bash
-src/models/train_model.sh
+code/train_model.sh
 ```
 
 6. Run the resource production pipeline:
 ```bash
-src/models/build_resource.sh
+code/build_resource.sh
 ```
 
 ## Requirements
