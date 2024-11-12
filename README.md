@@ -75,12 +75,7 @@ code/etl_pipeline.sh
 code/train_model.sh
 ```
 
-5. Run the grid search pipeline:
-```bash
-code/train_model.sh
-```
-
-6. Run the resource production pipeline:
+5. Run the resource production pipeline:
 ```bash
 code/build_resource.sh
 ```
