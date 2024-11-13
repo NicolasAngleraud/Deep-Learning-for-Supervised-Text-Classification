@@ -65,19 +65,16 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run the ETL data pipeline:
+3. Run resource pipeline:
+Provided a ttl dump file of the wiktionary senses, this pipeline uses ETL process to extract the data in a csv file which is then enriched with the best classifier trained whose parameters were saved. This takes hours to run because of the large number of objects to classify (around or more than 300 000).
 ```bash
-code/etl_pipeline.sh
+code/extract_enrich_wiktionary.sh
 ```
 
-4. Run the training pipeline:
+4. Run training pipeline:
+This pipeline trains new models following the same architecture and parameters as best trained models by default.
 ```bash
-code/train_model.sh
-```
-
-5. Run the resource production pipeline:
-```bash
-code/build_resource.sh
+code/train_new_def_ex_model.sh
 ```
 
 ## Requirements
