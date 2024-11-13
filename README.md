@@ -52,26 +52,26 @@ The following deep learning models were implemented and evaluated:
 
 ## Getting Started
 
-1. Clone the repository:
+1. **Clone the repository**:
 ```bash
 git clone https://github.com/NicolasAngleraud/Deep-Learning-for-Supervised-Text-Classification.git
 cd Deep-Learning-for-Supervised-Text-Classification
 ```
 
-2. Create a virtual environment and install dependencies:
+2. **Create a virtual environment and install dependencies**:
 ```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run resource pipeline:
+3. **Run resource pipeline**:
 Provided a ttl dump file of the wiktionary senses, this pipeline uses ETL process to extract the data in a csv file which is then enriched with the best classifier trained whose parameters were saved. This takes hours to run because of the large number of objects to classify (around or more than 300 000).
 ```bash
 code/extract_enrich_wiktionary.sh
 ```
 
-4. Run training pipeline:
+4. **Run training pipeline**:
 This pipeline trains new models following the same architecture and parameters as best trained models by default.
 ```bash
 code/train_new_def_ex_model.sh
