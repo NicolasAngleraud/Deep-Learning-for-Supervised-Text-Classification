@@ -1,4 +1,4 @@
-# Deep Learning for Supervised Text Classification (Repository Currently Being Revised and Updated)
+# Deep Learning for Supervised Text Classification
 ## Internship Project
 
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-Text_Classification-blue)
@@ -48,7 +48,6 @@ The following deep learning models were implemented and evaluated:
 
 2. **Llama3.2-Based Models**
    - Few-shot prompting by leveraging the probability distribution of next token to be generated for each class first subword token
-   - Replacing the modeling head with a linear classifier and fine-tuning
 
 ## Getting Started
 
